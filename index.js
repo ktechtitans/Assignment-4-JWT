@@ -3,8 +3,8 @@ const express = require("express");
 const mongoose = require("mongoose");
 
 // Importing route handlers
-const authRoutes = require("./src/routes/userRoutes");
-const recipeRoutes = require("./src/routes/recipeRoutes");
+const authRoutes = require("./SRC/routes/userRoutes");
+const recipeRoutes = require("./SRC/routes/recipeRoutes");
 
 const app = express();
 
